@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caferita - Postres hechos con amor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts para un estilo más elegante -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#inicio" class="logo">Cafe con Amor</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECCIÓN INICIO - AHORA CON IMAGEN DE FONDO -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>Postres hechos con el corazón</h1>
+                <p>La dulzura que mereces, a un clic de distancia.</p>
+                <a href="#" class="btn btn-whatsapp" id="btn-hero-whatsapp">
+                    <img src="img/premium_photo-1674327105074-46dd8319164b.jpg" alt="WhatsApp" class="whatsapp-icon">
+                    ¡Haz tu pedido ahora!
+                </a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SOBRE NOSOTROS -->
+        <section id="nosotros" class="section">
+            <div class="container about-us-container">
+                <div class="about-us-image">
+                    <img src="img/imagenes de la cafeteria.webp" alt="Imagen de nuestra pastelería">
+                </div>
+                <div class="about-us-text">
+                    <h2>Nuestra Historia</h2>
+                    <p>En <strong>Pastelería Delicia</strong>, cada postre cuenta una historia de pasión y tradición. Desde 2015, hemos horneado con los mejores ingredientes, creando momentos inolvidables para nuestros clientes. Creemos que un buen postre puede alegrar cualquier día.</p>
+                    <p>Nuestra misión es combinar recetas clásicas con un toque moderno, garantizando siempre frescura y un sabor inigualable. ¡Gracias por ser parte de nuestra dulce familia!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PRODUCTOS - AHORA CON MÁS PRODUCTOS -->
+        <section id="productos" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Nuestros Productos Estrella</h2>
+                <div class="product-grid">
+                    <!-- Fila 1 -->
+                    <!-- Producto 1 -->
+                    <div class="product-card">
+                        <img src="img/pastel de chocolate intenso.jpg" alt="Pastel de Chocolate">
+                        <h3>Pastel de Chocolate Intenso</h3>
+                        <p>postre esponjoso y humedo, con sabor profundo y aromatico a cacao.</p>
+                        <span class="price">15 Bs.</span>
+                        <a href="#" class="btn btn-whatsapp btn-product" data-product="img">Pedir por WhatsApp</a>
+                    </div>
+                    <!-- Producto 2 -->
+                    <div class="product-card">
+                        <img src= "img/tarta de frutas.jpg">
+                        <h3>Tarta de Frutas de Temporada</h3>
+                        <p>Base crujiente y ligera, rellena de crema sueave y decorada con frutas frescas que aportan color y frescura.</p>
+                        <span class="price">20 Bs.</span>
+                        <a href="#" class="btn btn-whatsapp btn-product" data-product="Tarta de Frutas de Temporada">Pedir por WhatsApp</a>
+                    </div>
+                    <!-- Producto 3 -->
+                    <div class="product-card">
+                        <img src="img/cheese de fresa.jpg" alt="Cheesecake de Fresa">
+                        <h3>Cheesecake de Fresa</h3>
+                        <p>cremoso y delicado pastel de queso sobre una base crujiente, coronado con fresas y un dulce glaseado.</p>
+                        <span class="price">10 Bs.</span>
+                        <a href="#" class="btn btn-whatsapp btn-product" data-product="Cheesecake de Fresa">Pedir por WhatsApp</a>
+                    </div>
+
+                    <!-- Fila 2 -->
+                    <!-- Producto 4 -->
+                    <div class="product-card">
+                        <img src="img/vainilla.jpg" alt="Cupcakes de Vainilla">
+                        <h3>Cupcakes de Vainilla</h3>
+                        <p>pequeños y esponjosos pastelitos con suave aroma a vainilla.</p>
+                        <span class="price">15Bs.</span>
+                        <a href="#" class="btn btn-whatsapp btn-product" data-product="Cupcakes de Vainilla">Pedir por WhatsApp</a>
+                    </div>
+                    <!-- Producto 5 -->
+                    <div class="product-card">
+                        <img src="img/galletas de mantequilla.jpg" alt="Galletas de Mantequilla">
+                        <h3>Galletas de Mantequilla</h3>
+                        <p>crujientes y doradas, con sabor suave y delicado que se deshace en la boca.</p>
+                        <span class="price">20Bs.</span>
+                        <a href="#" class="btn btn-whatsapp btn-product" data-product="Galletas de Mantequilla">Pedir por WhatsApp</a>
+                    </div>
+                    <!-- Producto 6 -->
+                    <div class="product-card">
+                        <img src="img/browni de chocolate.jpg" alt="Brownies">
+                        <h3>Brownies de Chocolate</h3>
+                        <p>bizcocho denso y humedo, con sabor intenso y textura suave por dentro.</p>
+                        <span class="price">25 Bs.</span>
+                        <a href="#" class="btn btn-whatsapp btn-product" data-product="Brownies de Chocolate">Pedir por WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN CONTACTO -->
+        <section id="contacto" class="section">
+            <div class="container contact-content">
+                <h2 class="section-title">Contáctanos</h2>
+                <p>¿Tienes alguna pregunta o un pedido especial? ¡Estamos para servirte!</p>
+                <div class="contact-info">
+                    <p><strong>Dirección:</strong> Calle Barrio San Jose.</p>
+                    <p><strong>Horario:</strong> Lunes a Sábado de 9:00 a 20:00 hrs.</p>
+                    <p><strong>Email:</strong> dulcecreacion@gmail.com</p>
+                </div>
+                <a href="#" class="btn btn-whatsapp" id="btn-contact-whatsapp">
+                    Envíanos un mensaje por WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Pastelería Dulce Creacion. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <!-- Script para los enlaces de WhatsApp -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // ----- IMPORTANTE: CAMBIA ESTE NÚMERO POR EL TUYO -----
+            // Incluye el código de país, sin el símbolo '+' ni espacios. Por ejemplo, para Bolivia: 591
+            const numeroWhatsApp = '59163537691';
+
+            // Mensaje genérico para el botón principal y de contacto
+            const mensajeGenerico = encodeURIComponent('Hola, me gustaría hacer un pedido o solicitar más información.');
+            const urlGenerica = `https://wa.me/${numeroWhatsApp}?text=${mensajeGenerico}`;
+            
+            document.getElementById('btn-hero-whatsapp').href = urlGenerica;
+            document.getElementById('btn-contact-whatsapp').href = urlGenerica;
+
+            // Lógica para los botones de cada producto
+            const botonesProducto = document.querySelectorAll('.btn-product');
+            botonesProducto.forEach(function(boton) {
+                boton.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const nombreProducto = this.getAttribute('data-product');
+                    const mensajeProducto = encodeURIComponent(`Hola, estoy interesado en el producto: ${nombreProducto}.`);
+                    const urlProducto = `https://wa.me/${numeroWhatsApp}?text=${mensajeProducto}`;
+                    window.open(urlProducto, '_blank');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
